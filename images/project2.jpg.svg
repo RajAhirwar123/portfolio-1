@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a192f"/>
+  
+  <!-- Gradient Overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c63ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff6584;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad1)"/>
+  
+  <!-- Task Management System Illustration -->
+  <!-- Task Board -->
+  <rect x="200" y="120" width="400" height="260" rx="10" fill="rgba(255, 255, 255, 0.1)" stroke="#ccd6f6" stroke-width="2"/>
+  
+  <!-- Board Columns -->
+  <rect x="210" y="150" width="120" height="220" rx="5" fill="rgba(255, 255, 255, 0.05)"/>
+  <rect x="340" y="150" width="120" height="220" rx="5" fill="rgba(255, 255, 255, 0.05)"/>
+  <rect x="470" y="150" width="120" height="220" rx="5" fill="rgba(255, 255, 255, 0.05)"/>
+  
+  <!-- Column Headers -->
+  <rect x="210" y="150" width="120" height="30" rx="5" fill="#6c63ff" opacity="0.7"/>
+  <text x="270" y="170" font-family="Arial" font-size="12" fill="#e6f1ff" text-anchor="middle">To Do</text>
+  
+  <rect x="340" y="150" width="120" height="30" rx="5" fill="#6c63ff" opacity="0.7"/>
+  <text x="400" y="170" font-family="Arial" font-size="12" fill="#e6f1ff" text-anchor="middle">In Progress</text>
+  
+  <rect x="470" y="150" width="120" height="30" rx="5" fill="#6c63ff" opacity="0.7"/>
+  <text x="530" y="170" font-family="Arial" font-size="12" fill="#e6f1ff" text-anchor="middle">Done</text>
+  
+  <!-- Task Cards -->
+  <!-- To Do Column -->
+  <rect x="220" y="190" width="100" height="60" rx="5" fill="#ccd6f6" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="220" y="260" width="100" height="60" rx="5" fill="#ccd6f6" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- In Progress Column -->
+  <rect x="350" y="190" width="100" height="60" rx="5" fill="#ff6584" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Done Column -->
+  <rect x="480" y="190" width="100" height="60" rx="5" fill="#6c63ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="480" y="260" width="100" height="60" rx="5" fill="#6c63ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Progress Indicators -->
+  <circle cx="150" cy="250" r="40" fill="transparent" stroke="#ccd6f6" stroke-width="5"/>
+  <path d="M150 250 L150 210 A40 40 0 0 1 185 250 Z" fill="#6c63ff"/>
+  <text x="150" y="255" font-family="Arial" font-size="16" fill="#e6f1ff" text-anchor="middle">60%</text>
+  
+  <circle cx="650" cy="250" r="40" fill="transparent" stroke="#ccd6f6" stroke-width="5"/>
+  <path d="M650 250 L650 210 A40 40 0 0 1 685 250 Z" fill="#ff6584"/>
+  <text x="650" y="255" font-family="Arial" font-size="16" fill="#e6f1ff" text-anchor="middle">60%</text>
+  
+  <!-- Tech Stack Icons -->
+  <circle cx="300" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="300" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">Java</text>
+  
+  <circle cx="350" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="350" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">WebFlux</text>
+  
+  <circle cx="400" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="400" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">React</text>
+  
+  <circle cx="450" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="450" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">MongoDB</text>
+  
+  <!-- Project Title -->
+  <text x="400" y="80" font-family="Arial" font-size="24" fill="#e6f1ff" text-anchor="middle" font-weight="bold">Task Management System</text>
+  
+  <!-- Animated Element -->
+  <circle cx="400" cy="250" r="180" fill="transparent" stroke="#ff6584" stroke-width="2" stroke-dasharray="10,10" opacity="0.3">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 250" to="360 400 250" dur="40s" repeatCount="indefinite"/>
+  </circle>
+</svg>

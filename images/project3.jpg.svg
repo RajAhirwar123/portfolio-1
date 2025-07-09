@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a192f"/>
+  
+  <!-- Gradient Overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c63ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff6584;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad1)"/>
+  
+  <!-- Banking Application Illustration -->
+  <!-- Bank Building -->
+  <rect x="300" y="150" width="200" height="150" fill="rgba(255, 255, 255, 0.1)" stroke="#ccd6f6" stroke-width="2"/>
+  <rect x="320" y="170" width="160" height="130" fill="rgba(255, 255, 255, 0.05)"/>
+  
+  <!-- Pillars -->
+  <rect x="320" y="150" width="20" height="150" fill="#ccd6f6" opacity="0.8"/>
+  <rect x="380" y="150" width="20" height="150" fill="#ccd6f6" opacity="0.8"/>
+  <rect x="440" y="150" width="20" height="150" fill="#ccd6f6" opacity="0.8"/>
+  
+  <!-- Roof -->
+  <polygon points="250,150 400,100 550,150" fill="#ccd6f6" opacity="0.8"/>
+  
+  <!-- Security Elements -->
+  <circle cx="250" cy="250" r="40" fill="transparent" stroke="#ff6584" stroke-width="3">
+    <animate attributeName="r" values="40;45;40" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="250" r="30" fill="transparent" stroke="#ff6584" stroke-width="2">
+    <animate attributeName="r" values="30;35;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="250" r="20" fill="#ff6584" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="550" cy="250" r="40" fill="transparent" stroke="#6c63ff" stroke-width="3">
+    <animate attributeName="r" values="40;45;40" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="250" r="30" fill="transparent" stroke="#6c63ff" stroke-width="2">
+    <animate attributeName="r" values="30;35;30" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="250" r="20" fill="#6c63ff" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Lock Icon -->
+  <rect x="380" y="200" width="40" height="30" rx="5" fill="#e6f1ff"/>
+  <rect x="390" y="180" width="20" height="20" rx="10" fill="#e6f1ff"/>
+  <circle cx="400" cy="210" r="5" fill="#0a192f"/>
+  <line x1="400" y1="210" x2="400" y2="220" stroke="#0a192f" stroke-width="2"/>
+  
+  <!-- Currency Symbols -->
+  <text x="200" cy="350" font-family="Arial" font-size="30" fill="#ccd6f6" text-anchor="middle">₹</text>
+  <text x="600" cy="350" font-family="Arial" font-size="30" fill="#ccd6f6" text-anchor="middle">$</text>
+  
+  <!-- Digital Wave (Representing Transactions) -->
+  <path d="M150,350 Q200,320 250,350 Q300,380 350,350 Q400,320 450,350 Q500,380 550,350 Q600,320 650,350" fill="none" stroke="#6c63ff" stroke-width="3" opacity="0.7">
+    <animate attributeName="d" values="M150,350 Q200,320 250,350 Q300,380 350,350 Q400,320 450,350 Q500,380 550,350 Q600,320 650,350;M150,350 Q200,380 250,350 Q300,320 350,350 Q400,380 450,350 Q500,320 550,350 Q600,380 650,350;M150,350 Q200,320 250,350 Q300,380 350,350 Q400,320 450,350 Q500,380 550,350 Q600,320 650,350" dur="5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Tech Stack Icons -->
+  <circle cx="300" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="300" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">Java</text>
+  
+  <circle cx="350" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="350" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">Spring</text>
+  
+  <circle cx="400" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="400" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">Angular</text>
+  
+  <circle cx="450" cy="400" r="20" fill="#ccd6f6" opacity="0.8"/>
+  <text x="450" y="405" font-family="Arial" font-size="12" fill="#0a192f" text-anchor="middle">PostgreSQL</text>
+  
+  <!-- Project Title -->
+  <text x="400" y="80" font-family="Arial" font-size="24" fill="#e6f1ff" text-anchor="middle" font-weight="bold">Banking Application</text>
+  
+  <!-- Animated Element -->
+  <circle cx="400" cy="250" r="180" fill="transparent" stroke="#ff6584" stroke-width="2" stroke-dasharray="10,10" opacity="0.3">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 250" to="360 400 250" dur="40s" repeatCount="indefinite"/>
+  </circle>
+</svg>
